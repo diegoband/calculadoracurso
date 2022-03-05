@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(63, 92, 29);
+  --primary-color: rgb(17, 86, 102);
   --primary-color-darker: rgb(9, 48, 56);
 }
 
@@ -46,7 +46,11 @@ li {
   margin: 50px auto;
   background: #fff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 3vh;
+}
+.container > *{
+  margin: auto;
+  text-align: center;
 }
 
 button {
@@ -85,13 +89,19 @@ form button:hover {
 }
 
 .calculadora {
-  width: 400px;
+  width: 80%;
 }
 
 .display {
   font-size: 2em;
   width: 100%;
   text-align: right;
+}
+
+.display::placeholder {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.5em;
 }
 
 .btn {
